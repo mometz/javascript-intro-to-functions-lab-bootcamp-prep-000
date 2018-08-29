@@ -45,6 +45,6 @@ describe('sayHiToGrandma(string)', function() {
   })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    (sayHiTexpectoGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+    (sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
